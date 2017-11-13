@@ -9,10 +9,10 @@ $queryString = explode("&", $_SERVER["QUERY_STRING"])[0];
 $requestUri = explode("?", rawurldecode($_SERVER["REQUEST_URI"]))[0];
 
 define('URL', str_replace(str_replace("url=", "", $queryString), "", $requestUri));
-define("DB_HOST", "localhost");
-define("DB_USER", "bulapras");
-define("DB_PASS", 'W2au25Jq');
-define("DB_NAME", "bulapras_members_db");
+define("DB_HOST", "");
+define("DB_USER", "");
+define("DB_PASS", '');
+define("DB_NAME", "");
 
 
 define('LIBS_PATH', 'Libs' . DS);
